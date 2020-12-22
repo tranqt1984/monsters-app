@@ -6,7 +6,7 @@ export const Card = ({ monsters }) => (
   <div className="card-container">
     {monsters.map((monster) => (
       <div className="card" key={monster.id}>
-        <img src={`https://robohash.org/${monster.id}`} alt="" />
+        <img src={`https://robohash.org/${monster.id}`} alt="robot avatar" />
         <h2>{monster.name}</h2>
         <h3>{monster.email}</h3>
       </div>
